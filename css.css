@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	
+}
+a{
+	text-decoration:none;
+}
+ul li{
+ list-style:none;
+}
+.wrapper{
+	width:1000px;
+	position:relative;
+	margin:auto;
+}
+
+
+.header{
+	width:100%;
+	height:150px;
+	background-color:#000;
+
+}
+.menu{
+	width:100%;
+	height:30px;
+	overflow:hidden;
+	border:0.5px solid #999;
+	background-color:#DEB887;
+}
+.menu ul li{
+	float:left;
+	line-height:30px;
+	margin-left:5px;
+	margin-top:-3px;
+	padding:3px 5px;
+	}
+.menu ul li a:hover{
+background:#6495ED;
+color:#696969;
+border-radius:20px;
+padding:0px 7px;
+	}
+.menu ul li a{
+
+	color:#2F4F4F;
+	text-decoration:none;
+	} 
+.content{
+	width:100%;
+	border:0px solid #666;
+	position:relative;
+}
+
+.content table{
+margin:10px auto
+;}
+.left{
+	width:200px;
+	height:500px;
+	float: left;
+	background-color:#FFF;
+	}
+.left p{
+	padding:2px;
+	background-color:#666;
+	color:#FFF;
+	border-radius:0px 25px 25px 0px ;
+}
+.danhsachsanpham{
+	padding:10px 0px;
+}
+.danhsachsanpham ul li{
+	color:black;
+	padding:5px;
+}
+.danhsachsanpham ul li a{
+	color:black;
+}
+.danhsachsanpham ul li:hover{
+	color:white;
+	padding:7px;
+	background:#7e838a;
+	border-radius:0px 25px 25px 0px ;
+}
+.danhsachsanpham ul li a:hover{
+	color:white;
+}
+.right{
+	width:790px;
+	color:#000;
+	border-left:0.5px solid #666;
+	float: right;
+	margin:0px 0px 20px;
+	}
+.tatcasanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+table#tb01 {
+    border-collapse: collapse;
+    width: 100%;
+}
+table#tb01, td,th{    
+    border: 1px solid #ddd;
+    padding:0px 10px;
+}
+
+.tatcasanpham ul li{
+	width:120px;
+	height:auto;
+	text-align:center;
+	float:left;
+	margin-left:27.5px;
+	margin:30px 28px 15px 10px;
+}
+.tatcasanpham ul li a{
+	text-decoration:none;
+	
+}
+.sanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.sanpham ul li{
+	width:150px;
+	height:auto;
+	text-align:center;
+	float:left;
+	padding:22px;
+}
+.sanpham ul li a{
+	text-decoration:none;
+	color:black;
+	}
+.footer{
+	width:1000px;
+	margin:auto;
+	background-color:#666666;
+	overflow:hidden;
+}
+.endpage{
+		float:left;
+		width:300px;
+		padding:16.5px;
+		color:white;
+}
+
+.endpage h3{
+	width:150px;
+	border-bottom:2px solid white;
+}
+.endpage p{
+	padding:3px 0px;
+	font-size:15px;
+}
+#fromtim form{
+float:right;
+margin:3 10 0 0;
+}
+#fromtim{
+float:right;
+margin:3 10 0 0;
+}
+.img{
+	width:170px;
+	height:200px;
+}
+.title{
+	text-align:center;
+	margin:0px auto;
+	width:200px;
+	padding:10px;
+	border-bottom:2px solid black;
+}
+#formdangnhap{
+	margin:150px;
+}
+.img1{
+margin:0px 0 -7px 0;
+}
+#phantrang{
+	padding:10px;
+	height:30px;
+}
+#phantrang ul li{
+	color:black;
+	background-color:#d2d7da;
+	float:left;
+	padding:5px 10px;
+	margin-left:5px;
+}
+#phantrang p{
+	float:left;
+	padding:5px 10px;
+}
+#phantrang ul li:hover{
+	color:white;
+	background-color:#666666
+}
+#baomota{
+	position:relative;
+	clear:both;
+	height:auto;
+
+}
+#titlemota{
+	text-align:center;
+	margin:0px 0px 0px 35px;
+	height:30px;
+	width:60px;
+	border:1px solid #ffffff;
+}
+#titlemota p{
+	margin-top:5px;
+
+}
+
+#mota{
+	border:1px solid #caaeae;
+	margin:0px 0px 0px 35px;
+	clear:both;
+	width:auto;
+	height:auto;
+	padding:20px;
+}
